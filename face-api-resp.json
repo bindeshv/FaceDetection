@@ -1,0 +1,64 @@
+{'bindesh': '57b6aeb5-b1a5-4bbc-98c4-2a9e53dbcbcf', 'ranvijay': 'dde24b10-85e8-4168-9564-1c86f981147d'}
+
+#detect result 
+[
+ {
+ 'faceId': '38098e45-8dfc-43bb-9775-ef4c177c1da0',
+ 'faceRectangle': {'top': 298, 'left': 223, 'width': 241, 'height': 241}, 
+ 'faceAttributes': {
+ 	'gender': 'male',
+ 	'age': 31.3, 
+ 	'emotion': {'anger': 0.0, 'contempt': 0.019, 'disgust': 0.0, 'fear': 0.0, 'happiness': 0.163, 'neutral': 0.815, 'sadness': 0.003, 'surprise': 0.0}
+ 	}
+ },
+
+  {
+  'faceId': '44599471-321c-433a-9324-11870bd015e9', 
+  'faceRectangle': {'top': 437, 'left': 475, 'width': 140, 'height': 140}, 
+  'faceAttributes': {
+  		'gender': 'male',
+  		 'age': 46.8, 
+  		 'emotion': {'anger': 0.002, 'contempt': 0.015, 'disgust': 0.002, 'fear': 0.0, 'happiness': 0.546, 'neutral': 0.428, 'sadness': 0.005, 'surprise': 0.001}
+  		 }
+  }
+ ]
+ 
+#identify result 
+[
+{
+'faceId': 'e69bb1c5-5763-4038-b5aa-d940cfb9d3da', 
+'candidates': [{'personId': '57b6aeb5-b1a5-4bbc-98c4-2a9e53dbcbcf', 'confidence': 0.70769}]
+}, 
+{
+'faceId': 'b5ad18a3-1c3d-483f-bf64-9cecb967d207', 
+'candidates': [{'personId': 'dde24b10-85e8-4168-9564-1c86f981147d', 'confidence': 0.61013}]
+}
+
+
+]
+
+
+#person.get resp
+
+{
+'name': 'Bindesh',
+'persistedFaceIds': [
+
+				'052fde25-1457-423e-...451587a41', 
+				'43307398-eaef-4061-...1e649dcf9', 
+				'74c1a5d3-20af-482b-...da37fec69', 
+				'9a2dde23-2c02-4c6f-...08e746b26',
+				 'c9ea4ddc-a2f0-4fd5-...88f46b59d', 
+				 'fe8942a8-415b-42e1-...dcd5ac1a3'
+				 ], 
+				 'personId': 'a82f7d42-8eb5-4596-...6b2efadec', 
+				 'userData': None
+				 }
+}
+
+
+{'personId': '202185e0-f8a3-4f97-...7830f98b9'}
+
+
+{'personId': '57b6aeb5-b1a5-4bbc-98c4-2a9e53dbcbcf'}
+{'personId': 'dde24b10-85e8-4168-9564-1c86f981147d'}
